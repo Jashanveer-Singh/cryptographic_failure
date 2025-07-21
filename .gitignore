@@ -1,0 +1,15 @@
+attacker/malicious_certificate.pem
+attacker/original_certificate.pem
+attacker/public_key.json
+
+client/public_key.json
+
+ecc/__pycache__
+ecc/pem_to_json.py
+ecc/public_key.json
+ecc/signed_certificate.pem
+
+server/cert.json
+server/certificate/pem
+
+utils/__pycache__
