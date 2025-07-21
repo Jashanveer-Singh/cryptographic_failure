@@ -50,26 +50,26 @@ Briefly, the attacker crafts a malicious certificate by manipulating the ellipti
 
 ```
 cryptographic_failure/
-ÃÄÄ attacker/
-³   ÃÄÄ __init__.py
-³   ÃÄÄ attacker_server.py
-³   ÀÄÄ generate_malicious_certificate.py
-ÃÄÄ client/
-³   ÃÄÄ __init__.py
-³   ÀÄÄ client.py
-ÃÄÄ ecc/
-³   ÃÄÄ __init__.py
-³   ÃÄÄ certificate.json
-³   ÃÄÄ ecc_utils.py
-³   ÃÄÄ ecdsa.py
-³   ÀÄÄ generate_certificate.py
-ÃÄÄ server/
-³   ÃÄÄ __init__.py
-³   ÃÄÄ certificate.pem
-³   ÀÄÄ server.py
-ÀÄÄ utils/
-    ÃÄÄ __init__.py
-    ÀÄÄ certificate.py
+â”œâ”€â”€ attacker/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ attacker_server.py
+â”‚   â””â”€â”€ generate_malicious_certificate.py
+â”œâ”€â”€ client/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â””â”€â”€ client.py
+â”œâ”€â”€ ecc/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ certificate.json
+â”‚   â”œâ”€â”€ ecc_utils.py
+â”‚   â”œâ”€â”€ ecdsa.py
+â”‚   â””â”€â”€ generate_certificate.py
+â”œâ”€â”€ server/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ certificate.pem
+â”‚   â””â”€â”€ server.py
+â””â”€â”€ utils/
+    â”œâ”€â”€ __init__.py
+    â””â”€â”€ certificate.py
 ```
 
 ---
