@@ -79,11 +79,11 @@ cryptographic_failure/
 ### 1. Clone the repo
 
 ```bash
-git clone htttps://Jashanveer-Singh/cryptographic_failure.git
+git clone https://github.com/Jashanveer-Singh/cryptographic_failure.git
 ```
 ### 2. Generate Certificate
 
-You must prepare a certificate configuration file in JSON format ([see Example](#Example-Certificate.json)).
+you must prepare a certificate configuration file in json format ([see example](#example-certificate.json)).
 
 ```bash
 python ecc/generate_certificate.py <config_file_path> <output_certificate_pem_file_path> <output_public_key_json_file_path>
@@ -169,7 +169,7 @@ Attack fails. Certificate is not valid
 
 ---
 
-## Example-Certificate.json
+## Example `Certificate.json`
 
 Place this file in ecc/certificate.json or provide it as input during certificate generation:
 ```bash
